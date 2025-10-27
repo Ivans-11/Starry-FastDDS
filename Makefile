@@ -62,7 +62,6 @@ img:
 	sudo mount -o loop $(STARRYOS_DIR)/arceos/disk.img /mnt/disk
 	sudo cp -r $(INSTALL_DIR)/* /mnt/disk/usr/local/
 	sudo cp -r /opt/riscv64-linux-musl-cross/riscv64-linux-musl/lib/* /mnt/disk/lib/
-	sudo cp 
 	sudo umount /mnt/disk
 
 # Build an example application

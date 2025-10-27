@@ -12,6 +12,9 @@
 git clone --recursive https://github.com/Ivans-11/Starry-FastDDS.git
 cd Starry-FastDDS
 make
+
+make example hello_world
+make load ./Fast-DDS/examples/cpp/hello_world/build/hello_world
 ```
 
 
