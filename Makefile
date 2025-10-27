@@ -72,7 +72,7 @@ ifndef A
 endif
 	mkdir -p $(EXAMPLES_DIR)/$(A)/build
 	cd $(EXAMPLES_DIR)/$(A)/build && \
-	cmake $(EXAMPLES_DIR)/$(A) $(CMAKE_FLAGS)
+	cmake $(EXAMPLES_DIR)/$(A) -DCMAKE_INSTALL_PREFIX=$(INSTALL_DIR) $(CMAKE_FLAGS)
 	cmake --build $(EXAMPLES_DIR)/$(A)/build
 
 # Load a file into disk image
