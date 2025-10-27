@@ -1,0 +1,15 @@
+[submodule "StarryOS"]
+	path = StarryOS
+	url = https://github.com/Starry-OS/StarryOS.git
+[submodule "foonathan_memory_vendor"]
+	path = foonathan_memory_vendor
+	url = https://github.com/eProsima/foonathan_memory_vendor.git
+[submodule "Fast-CDR"]
+	path = Fast-CDR
+	url = https://github.com/eProsima/Fast-CDR.git
+[submodule "Fast-DDS"]
+	path = Fast-DDS
+	url = https://github.com/eProsima/Fast-DDS.git
+[submodule "tinyxml2"]
+	path = tinyxml2
+	url = https://github.com/leethomason/tinyxml2.git
