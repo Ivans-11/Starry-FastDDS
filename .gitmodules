@@ -1,6 +1,6 @@
 [submodule "StarryOS"]
 	path = StarryOS
-	url = https://github.com/Starry-OS/StarryOS.git
+	url = https://github.com/Ivans-11/StarryOS.git
 [submodule "foonathan_memory_vendor"]
 	path = foonathan_memory_vendor
 	url = https://github.com/eProsima/foonathan_memory_vendor.git
