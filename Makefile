@@ -91,3 +91,7 @@ endif
 clean:
 	rm -rf $(FOONATHAN_DIR)/build $(FASTCDR_DIR)/build $(TINYXML2_DIR)/build $(FASTDDS_DIR)/build
 	rm -rf $(INSTALL_DIR)
+
+.PHONY: run
+run:
+	cd $(STARRYOS_DIR) && make run
